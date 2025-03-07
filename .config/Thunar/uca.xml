@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Terminal hier öffnen</name>
+	<submenu></submenu>
+	<unique-id>1719074996162285-1</unique-id>
+	<command>kitty --directory %f $SHELL_CWD</command>
+	<description>Beispiel für eine eigene Aktion</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+</actions>

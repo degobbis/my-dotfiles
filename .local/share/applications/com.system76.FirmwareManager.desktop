@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Firmware Manager
+Icon=firmware-manager
+Comment=Manage system and device firmware
+Categories=System;GTK
+Keywords="firmware;system76;fwupd;lvfs;"
+StartupNotify=true
+Exec=/home/guido/.local/bin/start-firmware-manager.sh
+X-Desktop-File-Install-Version=0.27

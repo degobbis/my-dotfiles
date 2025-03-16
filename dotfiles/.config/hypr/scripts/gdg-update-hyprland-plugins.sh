@@ -13,10 +13,12 @@ if [[ ! -f "$VERSION_FILE" ]] || [[ "$(cat "$VERSION_FILE")" != "$CURRENT_VERSIO
 
     # Falls Update erfolgreich, speichern wir die neue Version
     if [[ $? -eq 0 ]]; then
-        echo "$CURRENT_VERSION" > "$VERSION_FILE"
         swaync-client --hide-latest
         notify-send -u normal "Hyprland-Plugin-Update abgeschlossen!" "Du kannst Hyprland jetzt normal nutzen."
     else
         notify-send -u critical "Hyprland-Plugin-Update FEHLGESCHLAGEN!" "Überprüfe mit 'hyprpm update -v' in der Konsole die Fehler."
+        exit 1
     fi
 fi
+
+echo "$CURRENT_VERSION" > "$VERSION_FILE"

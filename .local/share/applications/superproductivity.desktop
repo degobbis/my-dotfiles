@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Super Productivity
+Exec="/home/guido/AppImages/super-productivity/superProductivity-x86_64.AppImage" %U
+Terminal=false
+Type=Application
+Icon=superproductivity
+StartupWMClass=Super Productivity
+Comment=ToDo list and Time Tracking
+Categories=Office;ProjectManagement;
+Path=/home/guido/AppImages/super-productivity
+StartupNotify=false

@@ -54,3 +54,5 @@ application/force-download=geany.desktop;
 application/vnd.appimage=nautilus-autorun-software.desktop;
 application/x-executable=geany.desktop;
 inode/symlink=geany.desktop;
+audio/mp4=mpv.desktop;gnome-mplayer.desktop;
+audio/mpeg=vlc.desktop;mpv.desktop;

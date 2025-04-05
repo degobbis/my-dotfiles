@@ -9,7 +9,7 @@ if [[ ! -f "$VERSION_FILE" ]] || [[ "$(cat "$VERSION_FILE")" != "$CURRENT_VERSIO
     notify-send -u critical "Hyprland-Plugins werden aktualisiert..." "Bitte warten, bis das Update abgeschlossen ist."
 
     # Plugins updaten
-    hyprpm update
+    $(cat ~/.config/ml4w/settings/terminal.sh) --class dotfiles-floating -e hyprpm update
 
     # Falls Update erfolgreich, speichern wir die neue Version
     if [[ $? -eq 0 ]]; then

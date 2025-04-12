@@ -19,6 +19,6 @@ if [[ ! -f "$VERSION_FILE" ]] || [[ "$(cat "$VERSION_FILE")" != "$CURRENT_VERSIO
         notify-send -u critical "Hyprland-Plugin-Update FEHLGESCHLAGEN!" "Überprüfe mit 'hyprpm update -v' in der Konsole die Fehler."
         exit 1
     fi
-fi
 
-echo "$CURRENT_VERSION" > "$VERSION_FILE"
+    echo "$CURRENT_VERSION" > "$VERSION_FILE"
+fi

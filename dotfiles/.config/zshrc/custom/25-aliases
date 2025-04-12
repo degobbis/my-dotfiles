@@ -149,32 +149,33 @@ function update-firmware() {
 	echo ""
 }
 
-function update-system() {
-	local PARAMS="-Su"
-	local FILES=""
+alias update-system='~/.config/ml4w/scripts/installupdates.sh'
+##function update-system() {
+##	local PARAMS="-Su"
+##	local FILES=""
 
-	if [[ ! -z "$1" ]]
-	then
-		PARAMS="$1"
-		shift
-		FILES="$*"
-	fi
-	
-	echo ""
-	echo ""
-	echo "############################"
-	echo "# System: Update gestartet #"
-	echo "############################"
-	echo ""
-	sudo pacman ${PARAMS}y ${FILES}
-	echo ""
-	echo ""
-	echo "#########################"
-	echo "# AUR: Update gestartet #"
-	echo "#########################"
-	echo ""
-	trizen ${PARAMS}a --noedit --noconfirm ${FILES}
-}
+##	if [[ ! -z "$1" ]]
+##	then
+##		PARAMS="$1"
+##		shift
+##		FILES="$*"
+##	fi
+
+##	echo ""
+##	echo ""
+##	echo "############################"
+##	echo "# System: Update gestartet #"
+##	echo "############################"
+##	echo ""
+##	sudo pacman ${PARAMS}y ${FILES}
+##	echo ""
+##	echo ""
+##	echo "#########################"
+##	echo "# AUR: Update gestartet #"
+##	echo "#########################"
+##	echo ""
+##	trizen ${PARAMS}a --noedit --noconfirm ${FILES}
+##}
 
 ####compdef update-system=trizen
 

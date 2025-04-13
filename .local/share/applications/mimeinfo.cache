@@ -1,2 +1,4 @@
 [MIME Cache]
 x-scheme-handler/binance=binance.desktop;
+x-scheme-handler/jan=jan.ai.desktop;
+x-scheme-handler/jitsi-meet=appimagekit_1087eb2236affe435aaf47074d05761d-Jitsi_Meet.desktop;

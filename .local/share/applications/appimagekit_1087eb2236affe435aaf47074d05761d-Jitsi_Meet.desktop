@@ -1,0 +1,48 @@
+[Desktop Entry]
+Name=Jitsi Meet (2025.2.0)
+Exec=/home/guido/Applications/jitsi-meet-x86_64.AppImage --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=appimagekit_1087eb2236affe435aaf47074d05761d_jitsi-meet
+StartupWMClass=Jitsi Meet
+X-AppImage-Version=2025.2.0
+Comment[de]=Jitsi Meet Desktop App
+Comment[es]=Aplicación de escritorio Jitsi Meet
+Comment[fr]=Application de bureau Jitsi Meet
+Comment[hi]=जितसि मीट डेस्कटॉप एैप
+Comment[hr]=Jitsi Meet desktop aplikacija
+Comment[hu]=Asztali Jitsi Meet-alkalmazás
+Comment[it]=Applicazione Jitsi Meet Desktop
+Comment[pt]=Aplicativo Jitsi Meet
+Comment[ru]=Приложение Jitsi Meet
+Comment[sq]=Aplikacion Jitsi Meet për Desktop
+Comment[zh-CN]=Jitsi Meet 桌面应用
+Comment[zh-TW]=Jitsi Meet 桌面應用程式
+Comment=Jitsi Meet Desktop App
+MimeType=x-scheme-handler/jitsi-meet;
+Categories=VideoConference;AudioVideo;Audio;Video;Network;
+
+TryExec=/home/guido/Applications/jitsi-meet-x86_64.AppImage
+X-AppImage-Old-Icon=jitsi-meet
+X-AppImage-Old-Name=Jitsi Meet
+X-AppImage-Identifier=1087eb2236affe435aaf47074d05761d
+Actions=Remove;
+X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2025-04-08 07:19:31 UTC
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/guido/Applications/jitsi-meet-x86_64.AppImage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[cs]=Odebrat AppImage ze systému
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage

@@ -126,9 +126,10 @@
   "custom/chatgpt": {
     "format": " ",
     "on-click": "~/.config/ml4w/settings/ai.sh",
-    "on-click-middle": "brave --app=https://chat.openai.com",
+    //"on-click-middle": "brave --app=https://chat.openai.com",
+    "on-click-middle": "brave --app=https://gemini.google.com/?hl=de",
     "on-click-right": "brave --app=https://www.perplexity.ai",
-    "tooltip-format": "AI Support\nLeft-Click = Jan.ai (local)\nMiddle-Click = ChatGPT\nRight-Click = Perplexity"
+    "tooltip-format": "AI Support\nLeft-Click = Jan.ai (local)\nMiddle-Click = Google Gemini\nRight-Click = Perplexity"
   },
 
   // Calculator

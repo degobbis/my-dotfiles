@@ -1,0 +1,36 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AppImage Pool
+Icon=appimagekit_c19bbe7bc3c10d1777f5a21f16e1b7b9_appimagepool
+Exec=/home/guido/Applications/appimagepool-5.1.0-x86_64.AppImage %u
+StartupWMClass=appimagepool
+Categories=Utility;
+Keywords=AppImage;Store;AppImageHub;Flutter;Gtk;
+TryExec=/home/guido/Applications/appimagepool-5.1.0-x86_64.AppImage
+X-AppImage-Old-Icon=appimagepool
+X-AppImage-Identifier=c19bbe7bc3c10d1777f5a21f16e1b7b9
+Actions=Remove;
+X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2025-04-08 07:19:31 UTC
+Comment=
+Path=/home/guido/Applications/appimagepool
+Terminal=false
+StartupNotify=false
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/guido/Applications/appimagepool-5.1.0-x86_64.AppImage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[cs]=Odebrat AppImage ze systému
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage

@@ -1,28 +1,27 @@
 [Desktop Entry]
-Name=Jan (0.5.16)
-Exec=/home/guido/Applications/jan-linux-x86_64-0.5.16.AppImage --no-sandbox %U
+Name=Super Productivity (12.0.1)
+Exec=/home/guido/Applications/superProductivity-x86_64.AppImage --no-sandbox %U
 Terminal=false
 Type=Application
-Icon=appimagekit_7f59530fd8edb5ee44e60a4fd1f2f094_jan
-StartupWMClass=Jan
-X-AppImage-Version=0.5.16
-Comment=Use offline LLMs with your own data. Run open source models like Llama2 or Falcon on your internal computers/servers.
-MimeType=x-scheme-handler/jan;
-Categories=Utility;
+Icon=appimagekit_bff5a12239c1183fbe823b49fec7d989_superproductivity
+StartupWMClass=Super Productivity
+X-AppImage-Version=12.0.1
+Comment=ToDo list and Time Tracking
+Categories=Office;ProjectManagement;
 
-TryExec=/home/guido/Applications/jan-linux-x86_64-0.5.16.AppImage
-X-AppImage-Old-Icon=jan
-X-AppImage-Old-Name=Jan
-X-AppImage-Identifier=7f59530fd8edb5ee44e60a4fd1f2f094
+TryExec=/home/guido/Applications/superProductivity-x86_64.AppImage
+X-AppImage-Old-Icon=superproductivity
+X-AppImage-Old-Name=Super Productivity
+X-AppImage-Identifier=bff5a12239c1183fbe823b49fec7d989
 Actions=Remove;
 X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2025-04-08 07:19:31 UTC
-Path=/home/guido/Applications/jan.ai
+Path=/home/guido/Applications/super-productivity
 StartupNotify=false
 
 [Desktop Action Remove]
 Name=Remove AppImage from system
 Icon=AppImageLauncher
-Exec=/usr/lib/appimagelauncher/remove "/home/guido/Applications/jan-linux-x86_64-0.5.16.AppImage"
+Exec=/usr/lib/appimagelauncher/remove "/home/guido/Applications/superProductivity-x86_64.AppImage"
 Name[ast]=Desaniciar AppImage del sistema
 Name[cs]=Odebrat AppImage ze systému
 Name[de]=AppImage vom System entfernen

@@ -7,6 +7,8 @@ CURRENT_VERSION=$(hyprctl version | grep "Tag" | awk '{print $2}')
 
 if [[ ! -f "$VERSION_FILE" ]] || [[ "$(cat "$VERSION_FILE")" != "$CURRENT_VERSION" ]]; then
     notify-send -u critical "Hyprland-Plugins werden aktualisiert..." "Bitte warten, bis das Update abgeschlossen ist."
+    
+    sleep 5
 
     # Plugins updaten
     $(cat ~/.config/ml4w/settings/terminal.sh) --class dotfiles-floating -e hyprpm update

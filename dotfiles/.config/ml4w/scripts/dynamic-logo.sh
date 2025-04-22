@@ -6,10 +6,10 @@ output_path="/tmp/arch-colored.png"
 cache_dir="$HOME/.cache/fastfetch"
 
 # Extract Pywal colors
-color1=$(jq -r '.colors.color1' ~/.cache/wal/colors.json)
-color2=$(jq -r '.colors.color2' ~/.cache/wal/colors.json)
-color3=$(jq -r '.colors.color3' ~/.cache/wal/colors.json)
-color4=$(jq -r '.colors.color4' ~/.cache/wal/colors.json)
+color1=$(jq -r '.colors.color0' ~/.cache/wal/colors.json)
+color2=$(jq -r '.colors.color10' ~/.cache/wal/colors.json)
+color3=$(jq -r '.colors.color13' ~/.cache/wal/colors.json)
+color4=$(jq -r '.colors.color15' ~/.cache/wal/colors.json)
 
 # Extract unique colors from the logo image
 colors=$(magick "$logo_path" -unique-colors -format "%c" info:)

@@ -9,6 +9,6 @@ POSH=agnoster
 eval "$(oh-my-posh init bash --config $HOME/.config/ohmyposh/zen.toml)"
 
 # -----------------------------------------------------
-# Pywal
+# Matugen
 # -----------------------------------------------------
 cat ~/.cache/wal/sequences

@@ -24,6 +24,7 @@ application/octet-stream=geany.desktop
 application/x-zerosize=geany.desktop
 application/x-executable=geany.desktop
 inode/symlink=geany.desktop
+application/x-trash=geany.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefoxdeveloperedition.desktop;firefox-developer-edition.desktop;
@@ -56,3 +57,4 @@ application/x-executable=geany.desktop;
 inode/symlink=geany.desktop;
 audio/mp4=mpv.desktop;gnome-mplayer.desktop;
 audio/mpeg=vlc.desktop;mpv.desktop;
+application/x-trash=geany.desktop;

@@ -16,6 +16,7 @@ export NVM_DIR="$HOME/.nvm"
 # Extend path with node and personal bin
 export NODE_PATH=$(npm root -g)
 export PATH=$HOME/bin:$HOME/.local/bin:$NVM_BIN:$NVM_INC:$NODE_PATH:$PATH
+export PATH=$PATH:$HOME/.cargo/bin
 
 export NUMCPUS=$(nproc)
 export NUMCPUSMINUSTWO=$(( NUMCPUS - 4 ))

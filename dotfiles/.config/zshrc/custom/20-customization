@@ -73,11 +73,6 @@ zi ice from"gh" pick"lib/git.zsh" nocompletions blockf \
   atload'!local f; for f in ${_ZSHRC_OMZ_LIBS}; do source lib/$f; done' \
   compile"lib/(${(j.|.)_ZSHRC_OMZ_LIBS})"
 
-# -----------------------------------------------------
-# Set-up FZF key bindings (CTRL R for fuzzy history finder)
-# -----------------------------------------------------
-source <(fzf --zsh)
-
 # zsh history
 export HISTSIZE=1000000
 export SAVEHIST=$(( HISTSIZE -1 ))
@@ -97,6 +92,11 @@ setopt HIST_REDUCE_BLANKS      # Removes blank lines from history
 
 zi load robbyrussell/oh-my-zsh
 
+# -----------------------------------------------------
+# Set-up FZF key bindings (CTRL R for fuzzy history finder)
+# -----------------------------------------------------
+source <(fzf --zsh)
+
 if [[ -z "$DISPLAY" ]]; then
 # Theme OLD
 zi light caiogondim/bullet-train-oh-my-zsh-theme
@@ -114,7 +114,7 @@ else
 # oh-my-posh promt
 # -----------------------------------------------------
 # Custom Theme
-POSH=agnoster
+#POSH=agnoster
 #eval "$(oh-my-posh init zsh --config /home/guido/.config/ohmyposh/EDM115-newline.omp.json)"
 eval "$(oh-my-posh init zsh --config /home/guido/.config/ohmyposh/guido.omp.json)"
 

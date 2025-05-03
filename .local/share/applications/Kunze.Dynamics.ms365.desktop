@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Kunze Dynamics (MS365)
+Exec=brave --app=https://kunze.crm4.dynamics.com
+Terminal=false
+Icon=Bilder/kunze-medien.ico
+Type=Application
+StartupWMClass=Kunze
+Categories=Kunze;

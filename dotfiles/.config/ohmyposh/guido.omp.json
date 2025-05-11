@@ -2,27 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "transient_prompt": {
     "template": "  ❯❯ {{ .AbsolutePWD }} : ",
-    "foreground": "#f8f8f2",
+    "foreground": "p:prompt",
     "background": "transparent",
     "newline": true
-  },
-  "palette": {
-    "color0": "#0e1416",
-    "color1": "",
-    "color2": "",
-    "color3": "",
-    "color4": "",
-    "color5": "",
-    "color6": "",
-    "color7": "",
-    "color8": "",
-    "color9": "",
-    "color10": "#82d3e3",
-    "color11": "",
-    "color12": "",
-    "color13": "#343a3c",
-    "color14": "",
-    "color15": "#dee3e5"
   },
   "blocks": [
     {
@@ -34,7 +16,7 @@
             "cache_duration": "none"
           },
           "template": "\n╭─",
-          "foreground": "#f8f8f2",
+          "foreground": "p:prompt",
           "type": "text",
           "style": "plain"
         },
@@ -44,8 +26,8 @@
             "time_format": " 15:04:05"
           },
           "leading_diamond": "",
-          "foreground": "p:color0",
-          "background": "p:color15",
+          "foreground": "p:primary-fg",
+          "background": "p:primary-bg",
           "powerline_symbol": "",
           "style": "diamond",
           "template": "{{ .CurrentDate | date .Format }} ",
@@ -57,8 +39,8 @@
           },
           "powerline_symbol": "",
           "template": " {{ .UserName }}@{{ .HostName }} ",
-          "foreground": "p:color0",
-          "background": "p:color10",
+          "foreground": "p:secondary-fg",
+          "background": "p:secondary-bg",
           "type": "session",
           "style": "powerline"
         },
@@ -67,9 +49,9 @@
             "cache_duration": "none"
           },
           "template": "󱐋",
-          "foreground": "p:color15",
+          "foreground": "p:red-fg",
           "powerline_symbol": "",
-          "background": "#ff5555",
+          "background": "p:red-bg",
           "type": "root",
           "style": "powerline"
         },
@@ -80,8 +62,8 @@
           },
           "trailing_diamond": "",
           "template": " 󰉖 {{ path .Path .Location }}",
-          "foreground": "p:color0",
-          "background": "p:color15",
+          "foreground": "p:tertiary-fg",
+          "background": "p:tertiary-bg",
           "type": "path",
           "style": "diamond"
         }
@@ -120,7 +102,7 @@
             "cache_duration": "none"
           },
           "template": "╰─ ❯❯",
-          "foreground": "#f8f8f2",
+          "foreground": "p:prompt",
           "type": "text",
           "style": "diamond"
         }
@@ -130,5 +112,32 @@
   ],
   "version": 3,
   "patch_pwsh_bleed": true,
-  "final_space": true
+  "final_space": true,
+  "palette": {
+    "prompt": "#dee3e6",
+    "red-fg": "#ffb4ab",
+    "red-bg": "#93000a",
+    "primary-fg": "#b3ebff",
+    "primary-bg": "#001f27",
+    "secondary-bg": "#1b89a9",
+    "secondary-fg": "#cee6f0",
+    "tertiary-bg": "#3f4ba6",
+    "tertiary-fg": "#dfe0ff",
+    "color0": "#090f11",
+    "color8": "#40484b",
+    "color1": "#ffb4ab",
+    "color9": "#ffb4ab",
+    "color2": "#94D497",
+    "color10": "#94D497",
+    "color3": "#c1c4eb",
+    "color11": "#c1c4eb",
+    "color4": "#414465",
+    "color12": "#414465",
+    "color5": "#86d1ea",
+    "color13": "#86d1ea",
+    "color6": "#899296",
+    "color14": "#899296",
+    "color7": "#dee3e6",
+    "color15": "#dee3e6"
+  }
 }

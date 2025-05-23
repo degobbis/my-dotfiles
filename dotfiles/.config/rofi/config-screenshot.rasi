@@ -58,7 +58,7 @@ window {
     spacing:                      0em;
     padding:                      0em;
     margin:                       0em; 
-    color:                        #FFFFFF;
+    color:                      #FFFFFF;
     border:                       @border-width;
     border-color:                 @color11;
     cursor:                       "default";

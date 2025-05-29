@@ -1,0 +1,29 @@
+{
+  "palette": {
+	"prompt": "#e3e1e9",
+	"red-fg": "#ffb4ab",
+	"red-bg": "#93000a",
+	"primary-fg": "#dde1ff",
+	"primary-bg": "#06164b",
+	"secondary-bg": "#4c5990",
+	"secondary-fg": "#dee1f9",
+	"tertiary-bg": "#993e8e",
+	"tertiary-fg": "#ffd7f4",
+	"color0": "#0d0e13",
+	"color8": "#45464f",
+	"color1": "#ffb4ab",
+	"color9": "#ffb4ab",
+	"color2": "#94D497",
+	"color10": "#94D497",
+	"color3": "#e4bad9",
+	"color11": "#e4bad9",
+	"color4": "#5c3d56",
+	"color12": "#5c3d56",
+	"color5": "#b7c4ff",
+	"color13": "#b7c4ff",
+	"color6": "#90909a",
+	"color14": "#90909a",
+	"color7": "#e3e1e9",
+	"color15": "#e3e1e9"
+  }
+}

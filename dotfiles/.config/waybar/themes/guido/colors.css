@@ -2,8 +2,8 @@
 * Css Colors
 * Generated with Matugen
 */
-@define-color blur_background rgba(18, 19, 24, 0.3);
-@define-color blur_background8 rgba(18, 19, 24, 0.8);
+@define-color blur_background rgba(18, 19, 24, 0.5);
+@define-color tray_background rgba(227, 225, 233, 0.2);
 
     @define-color background #121318;
 

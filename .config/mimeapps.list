@@ -58,3 +58,4 @@ inode/symlink=geany.desktop;
 audio/mp4=mpv.desktop;gnome-mplayer.desktop;
 audio/mpeg=vlc.desktop;mpv.desktop;
 application/x-trash=geany.desktop;
+application/vnd.ms-xpsdocument=geany.desktop;

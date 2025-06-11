@@ -148,6 +148,7 @@ function update-firmware() {
 	echo ""
 }
 
+alias update-hyprpm='~/.config/hypr/scripts/gdg-update-hyprland-plugins.sh'
 alias update-system='~/.config/ml4w/scripts/installupdates.sh'
 ##function update-system() {
 ##	local PARAMS="-Su"
@@ -231,3 +232,7 @@ alias dl-init='echo "- Change directory to /srv/"; cd /srv/; dl-start'
 
 # Dotfiles git bare repository on git@github.com:degobbis/my-dotfiles.git
 alias mydotfiles='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# Create or renew the QNAP Let's Encrypt certificate
+alias cert-nas='~/.ssh/cert-nas.sh'
+alias cert-nas-new='~/.ssh/cert-nas.sh new'

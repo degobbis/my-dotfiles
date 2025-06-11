@@ -25,6 +25,7 @@ application/x-zerosize=geany.desktop
 application/x-executable=geany.desktop
 inode/symlink=geany.desktop
 application/x-trash=geany.desktop
+application/vnd.apple.keynote=geany.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefoxdeveloperedition.desktop;firefox-developer-edition.desktop;
@@ -59,3 +60,6 @@ audio/mp4=mpv.desktop;gnome-mplayer.desktop;
 audio/mpeg=vlc.desktop;mpv.desktop;
 application/x-trash=geany.desktop;
 application/vnd.ms-xpsdocument=geany.desktop;
+application/x-remotedesktopmanager-rdp=geany.desktop;
+application/vnd.apple.keynote=geany.desktop;
+application/pkcs10=geany.desktop;

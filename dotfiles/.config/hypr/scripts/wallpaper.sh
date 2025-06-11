@@ -130,8 +130,8 @@ fi
 # -----------------------------------------------------
 
 sleep 2
-$HOME/.config/waybar/launch.sh
-# killall -SIGUSR2 waybar
+#$HOME/.config/waybar/launch.sh
+killall -SIGUSR2 waybar
 
 # -----------------------------------------------------
 # Reload nwg-dock-hyprland

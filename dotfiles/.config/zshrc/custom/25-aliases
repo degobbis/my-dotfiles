@@ -236,3 +236,5 @@ alias mydotfiles='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # Create or renew the QNAP Let's Encrypt certificate
 alias cert-nas='~/.ssh/cert-nas.sh'
 alias cert-nas-new='~/.ssh/cert-nas.sh new'
+
+alias cat='bat'

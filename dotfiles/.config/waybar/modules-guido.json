@@ -89,8 +89,8 @@
     "return-type": "json",
     "exec": "~/.config/ml4w/scripts/updates.sh",
     "interval": 14400,
-    "on-click": "~/.config/ml4w/settings/installupdates.sh",
-    "on-click-right": "~/.config/ml4w/settings/software.sh"
+    "on-click": "~/.config/ml4w/settings/software.sh",
+    "on-click-right": "~/.config/ml4w/settings/installupdates.sh"
   },
 
   // Wallpaper

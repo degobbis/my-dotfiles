@@ -9,9 +9,4 @@ if [[ $(tty) == *"pts"* ]]; then
     #fastfetch --config examples/13
     sh ~/.config/ml4w/scripts/dynamic-logo.sh
     fastfetch --config ~/.config/fastfetch/guido.jsonc
-else
-    echo
-    if [ -f /bin/hyprctl ]; then
-        echo "Start Hyprland with command Hyprland"
-    fi
 fi

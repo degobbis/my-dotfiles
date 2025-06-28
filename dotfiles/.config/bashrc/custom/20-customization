@@ -2,6 +2,14 @@
 # CUSTOMIZATION
 # -----------------------------------------------------
 POSH=agnoster
+export HISTCONTROL=ignoreboth:erasedups
+
+
+# -----------------------------------------------------
+# Set-up FZF key bindings (CTRL R for fuzzy history finder)
+# -----------------------------------------------------
+source <(fzf --bash)
+
 
 # -----------------------------------------------------
 # Prompt

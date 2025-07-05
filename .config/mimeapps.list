@@ -63,3 +63,4 @@ application/vnd.ms-xpsdocument=geany.desktop;
 application/x-remotedesktopmanager-rdp=geany.desktop;
 application/vnd.apple.keynote=geany.desktop;
 application/pkcs10=geany.desktop;
+inode/directory=jetbrains-phpstorm.desktop;

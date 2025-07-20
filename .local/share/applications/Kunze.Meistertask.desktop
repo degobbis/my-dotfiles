@@ -2,7 +2,10 @@
 Name=Kunze Meistertask
 Exec=brave --app=https://www.meistertask.com/app/dashboard
 Terminal=false
-Icon=Bilder/kunze-medien.ico
+Icon=/home/guido/Bilder/kunze-medien.ico
 Type=Application
 StartupWMClass=Kunze
 Categories=Kunze;
+Comment=
+Path=
+StartupNotify=false

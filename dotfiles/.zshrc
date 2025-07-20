@@ -17,7 +17,7 @@
 # -----------------------------------------------------
 
 # -----------------------------------------------------
-# Load modular configarion
+# Load modular configuration
 # -----------------------------------------------------
 
 for f in ~/.config/zshrc/*; do
@@ -34,4 +34,3 @@ done
 if [ -f ~/.zshrc_custom ]; then
     source ~/.zshrc_custom
 fi
-

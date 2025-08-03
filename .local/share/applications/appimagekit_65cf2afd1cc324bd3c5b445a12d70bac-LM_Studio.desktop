@@ -1,0 +1,38 @@
+[Desktop Entry]
+Name=LM Studio (0.3.20)
+Exec=/home/guido/Applications/LM-Studio-0.3.20-4-x64.AppImage --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=appimagekit_65cf2afd1cc324bd3c5b445a12d70bac_lm-studio
+StartupWMClass=LM Studio
+X-AppImage-Version=0.3.20
+Comment=Use the chat UI or local server to experiment and develop with local LLMs.
+Keywords=developer;llm;
+category=Development;Utility;
+MimeType=x-scheme-handler/lmstudio;
+Categories=Development;
+
+TryExec=/home/guido/Applications/LM-Studio-0.3.20-4-x64.AppImage
+X-AppImage-Old-Icon=lm-studio
+X-AppImage-Old-Name=LM Studio
+X-AppImage-Identifier=65cf2afd1cc324bd3c5b445a12d70bac
+Actions=Remove;
+X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2025-04-08 07:19:31 UTC
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/guido/Applications/LM-Studio-0.3.20-4-x64.AppImage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[cs]=Odebrat AppImage ze systému
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage
